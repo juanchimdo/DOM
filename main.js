@@ -1,8 +1,8 @@
 window.onload = function () {
     const titulo = document.querySelector('h1')
     const parrafo = document.querySelector('p')
-    const imagen1 = document.querySelector('.logo')
-    const imagen2 = document.querySelector('.firma')
+    const logo = document.querySelector('.logo')
+    const firma = document.querySelector('.firma')
     const nombre = document.querySelector('#nombre')
 
     titulo.style.display = 'none'
@@ -11,11 +11,11 @@ window.onload = function () {
     parrafo.style.border = 'solid black 2px'
     parrafo.style.borderRadius = '8px'
     
-    nombre.addEventListener ('click', function (){
-        if (nombre.style.color === 'black') {
-            nombre.style.color = 'white'
+    firma.addEventListener ('click', function () {
+        if (nombre.style.display === 'block') {
+            nombre.style.display = 'none'
         } else {
-            nombre.style.color = 'black'
+            nombre.style.display = 'block'
         }
     })
 }
