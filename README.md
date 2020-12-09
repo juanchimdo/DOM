@@ -1,1 +1,2 @@
-<h1>EJERCICIOS DEL DOM<h1>
+# Clase-12
+Ejercicos de la clase 12 de JS
