@@ -1,2 +1,3 @@
-# Clase-12
-Ejercicos de la clase 12 de JS
+# EJERCICIOS DEL DOM
+
+https://juanchimdo.github.io/DOM/
